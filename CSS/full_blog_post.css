@@ -1,0 +1,152 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+#full-blog-container {
+  border: 2px solid black;
+  box-shadow: -1px -1px 10px black, -1px -1px 10px black;
+  padding: 20px 30px;
+  width: 75%;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#img {
+  width: 600px;
+  height: auto;
+  margin: auto;
+}
+#post-content {
+  font-size: 1.2rem;
+}
+#post-title {
+  font-size: 2.4rem;
+  text-align: center;
+}
+.AllBlogs {
+  background-color: black;
+  color: white;
+  width: 120px;
+  text-decoration: none;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 1.2rem;
+  margin: auto;
+  border-radius: 20px;
+  margin: 20px auto;
+}
+#AllBlogs {
+  display: block;
+}
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1285px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 890px) {
+  #post-title {
+    font-size: 2.3rem;
+  }
+  #post-content {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  /* #post-title {
+    font-size: 2.3rem;
+  }
+  #post-content {
+    font-size: 1.1rem;
+  } */
+  #img {
+    width: 550px;
+    height: auto;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 740px) {
+  #post-title {
+    font-size: 2.1rem;
+  }
+  /* #post-content {
+      font-size: 1.1rem;
+    } */
+  #img {
+    width: 450px;
+    height: auto;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 640px) {
+  #post-title {
+    font-size: 1.9rem;
+  }
+  #post-content {
+    font-size: 1rem;
+  }
+  #img {
+    width: 400px;
+    height: auto;
+    margin: auto;
+  }
+  #full-blog-container {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 540px) {
+  #post-title {
+    font-size: 1.7rem;
+  }
+  #post-content {
+    font-size: 0.9rem;
+  }
+  #img {
+    width: 350px;
+    height: auto;
+    margin: auto;
+  }
+  #full-blog-container {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 490px) {
+  #img {
+    width: 300px;
+    height: auto;
+    margin: auto;
+  }
+  #post-title {
+    font-size: 1.6rem;
+  }
+  #post-content {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  #img {
+    width: 250px;
+    height: auto;
+    margin: auto;
+  }
+  #full-blog-container {
+    padding: 20px 17px;
+  }
+  #post-title {
+    font-size: 1.5rem;
+  }
+  #post-content {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  #img {
+    width: 230px;
+    height: auto;
+    margin: auto;
+  }
+}

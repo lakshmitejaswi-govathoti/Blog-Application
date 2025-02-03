@@ -1,0 +1,15 @@
+#Posted {
+  padding: 10% 0;
+  text-align: center;
+}
+#h1 {
+  font-size: 2rem;
+}
+button {
+  margin-top: 50px;
+  width: 120px;
+  height: 40px;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  cursor: pointer;
+}

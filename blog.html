@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlogBreeze</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/blog.css" />
+    <link rel="stylesheet" href="./CSS/home.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <a href="./index.html" id="logo"
+        ><img
+          src="./Assets/blogbreeze-high-resolution-logo-transparent.png"
+          alt="Logo"
+      /></a>
+      <ul id="nav_ul">
+        <li><a href="./index.html" class="link">Home</a></li>
+        <li><a href="./blog.html" class="link">Write a blog</a></li>
+        <li><a href="./All_Blogs.html" class="link">All Blogs</a></li>
+        <!-- <li><a href="" class="link">Contact</a></li>
+        <li><a href="" class="link" s>Feedback</a></li> -->
+      </ul>
+      <!-- <div id="hamberger">
+        <i class="fa-solid fa-bars"></i>
+      </div> -->
+    </nav>
+    <section id="blog-input">
+      <form action="">
+        <div class="banner">
+          <input type="file" accept="image/*" id="banner-upload" required />
+
+          <label for="banner-upload" class="banner-upload-btn"
+            ><img src="./Assets/upload.png" alt="upload banner" id="uploadImg"
+          /></label>
+        </div>
+        <p style="font-size: 0.8rem">**please provide image compulsory</p>
+        <textarea
+          name="heading"
+          id="heading"
+          placeholder="Blog Title........"
+        ></textarea>
+        <br />
+
+        <textarea
+          name="article"
+          id="article"
+          placeholder="Start writing here........"
+        ></textarea>
+        <div id="blog-options">
+          <button type="submit" id="post-btn">Post</button>
+        </div>
+      </form>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script type="module" src="./JS/blog.js"></script>
+  </body>
+</html>
